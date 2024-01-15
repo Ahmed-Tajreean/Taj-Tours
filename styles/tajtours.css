@@ -68,3 +68,114 @@ nav li a {
 .Orange-colour {
     color: #FF5400;
 }
+
+/* Header Styles */
+.banner {
+    margin: auto;
+    width: 90%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    height: 500px;
+    border-radius: 16px;
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+
+.banner-container {
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-title {
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 105px;
+}
+
+.banner-para {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    max-width: 675px;
+}
+
+.banner-input {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.input-field {
+    border-radius: 8px;
+    background: #FFF;
+    width: 154px;
+    height: 42px;
+    text-align: start;
+    border: none;
+}
+
+.input-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 154px;
+    height: 42px;
+    color: #FFF;
+    font-size: 1rem;
+    border: none;
+}
+
+/* Our Popular Tours Section */
+.popular-tours-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.popular-tour-info {
+    align-items: center;
+    width: 50%;
+}
+
+.popular-tours-section h3 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.popular-tours-section p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 5px;
+}
+
+.popular-tour-img {
+    padding-top: 40px;
+    padding-right: 20px;
+    width: 50%;
+    height: 550px;
+    border-radius: 16px;
+
+}
