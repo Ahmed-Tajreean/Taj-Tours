@@ -235,31 +235,28 @@ li {
 
 }
 
-.choose-destination-img {
-    max-width: 1250px;
-    margin: 0 auto;
+.choose-destination-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 25px;
 }
 
-.img-grid1 {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    margin-bottom: 40px;
+.choose-destination-image {
+    position: relative;
+    text-align: center;
 }
 
-.img-grid2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1.5fr 2fr 1.5fr);
-    margin-bottom: 40px;
-    margin-left: 25px;
-    gap: 45px;
-}
-
-.img-grid3 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr 2fr);
-    gap: 45px;
-    margin-bottom: 40px;
-    margin-left: 20px;
+.middle-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
 }
 
 /* Why choose us section */
@@ -287,7 +284,7 @@ li {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    padding: 35px;
+    padding: 40px;
 }
 
 .world-class-service {
@@ -295,14 +292,14 @@ li {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    padding: 35px;
+    padding: 40px;
 }
 
 .best-price {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    padding: 35px;
+    padding: 40px;
     margin-top: 25px;
     width: 50%;
 
