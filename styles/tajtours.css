@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Merriweather+Sans:wght@600&family=Mulish:wght@400;800&family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Share Styles */
+* {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.section-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* NavBar Styles */
+.nav-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section-container {
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 15px;
+}
+
+.section-img {
+    width: 70px;
+}
+
+.section-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+
+}
+
+.items-container {
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.Orange-colour {
+    color: #FF5400;
+}
