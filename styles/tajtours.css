@@ -13,6 +13,21 @@
     font-weight: 800;
 }
 
+.h3-style {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.p-style {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
 /* NavBar Styles */
 .nav-section {
     max-width: 1250px;
@@ -178,4 +193,135 @@ li {
     height: 550px;
     border-radius: 16px;
 
+}
+
+.btn-read {
+    margin-top: 20px;
+}
+
+/* Choose Your Destination */
+.choose-destination-section {
+    max-width: 1250px;
+    /* margin: 0 auto;
+    padding-top: 50px;  */
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.choose-destination-info {
+    text-align: center;
+
+}
+
+.choose-destination-section h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.choose-destination-section p {
+    color: rgba(19, 19, 24, 0.70);
+    /* text-align: center; */
+    font-size: 1rem;
+    font-weight: 400;
+    width: 700px;
+    margin-left: 290px;
+
+}
+
+.choose-destination-img {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.img-grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-bottom: 40px;
+}
+
+.img-grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr 2fr 1.5fr);
+    margin-bottom: 40px;
+    margin-left: 25px;
+    gap: 45px;
+}
+
+.img-grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 2fr);
+    gap: 45px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+/* Why choose us section */
+.why-us-section {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.choose-us-para {
+    margin-left: 643px;
+
+}
+
+.why-us-card {
+    display: flex;
+    gap: 25px;
+}
+
+.handpicked-hotel {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 35px;
+}
+
+.world-class-service {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 35px;
+}
+
+.best-price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 35px;
+    margin-top: 25px;
+    width: 50%;
+
+}
+
+.gurantee-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.why-us-title {
+    color: #131318;
+    font-size: 1.5;
+    font-weight: 800;
+}
+
+.why-us-para {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
 }
