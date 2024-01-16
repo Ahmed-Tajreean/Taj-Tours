@@ -532,7 +532,7 @@ hr {
 
 /* responsive media queries */
 /* mobile devices */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
 
     .section-title {
         font-size: 21px;
