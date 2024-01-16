@@ -533,6 +533,7 @@ hr {
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
+
     .section-title {
         font-size: 21px;
         font-style: normal;
@@ -597,7 +598,8 @@ hr {
     }
 
     .popular-tours-section {
-        display: block;
+        /* display: block; */
+        flex-direction: column;
     }
 
     .popular-tour-info {
@@ -626,7 +628,8 @@ hr {
 
     .choose-destination-container {
         width: 100%;
-        display: block;
+        /* display: block; */
+        flex-direction: column;
         /* flex-wrap: wrap;
         justify-content: space-between;
         justify-content: center; */
@@ -698,11 +701,11 @@ hr {
     }
 
     .newsletter-section {
-        display: block;
+        flex-direction: column;
     }
 
     .form-container {
-        width: 80%;
+        width: 70%;
         margin-left: 10px;
         margin-bottom: 20px;
     }
@@ -714,7 +717,7 @@ hr {
         height: 52px;
         border: none;
         margin-top: 20px;
-        padding-left: 20px;
+        padding-left: 10px;
 
     }
 
@@ -725,10 +728,11 @@ hr {
     .newsletter-btn {
         width: 310px;
         height: 50px;
+        padding-left: 10px;
     }
 
     .newsletter-img {
-        width: 410px;
+        width: 390px;
         height: 350px;
         margin-left: 10px;
     }
@@ -737,8 +741,8 @@ hr {
         position: relative;
         border-radius: 16px;
         left: 0px;
-        top: -125px;
-        left: 200px;
+        top: -150px;
+        left: 180px;
         text-align: center;
     }
 
